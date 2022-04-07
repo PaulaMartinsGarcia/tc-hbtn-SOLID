@@ -1,6 +1,6 @@
 package isp;
 
-public class Vehicle implements IVechicle, IVehicleCar{
+public class Vehicle implements IVehicle, IVehicleCar{
 		
 	@Override
 	public void configureCar(String color, String year, double engine, int seats) {

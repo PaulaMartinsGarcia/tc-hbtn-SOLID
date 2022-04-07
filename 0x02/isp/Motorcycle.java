@@ -1,6 +1,6 @@
 package isp;
 
-public class Motorcycle implements IVechicle, IVehicleMotorcycle{
+public class Motorcycle implements IVehicle, IVehicleMotorcycle{
 
 	@Override
 	public void configureMotorcycle(String color, String year, double engine) {
