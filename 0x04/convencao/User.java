@@ -6,7 +6,7 @@ public class User {
 
     final static int IDADE_MINIMA = 18;
 
-    public AllUsers(){
+    public GetUsers(){
 
     };
 }
