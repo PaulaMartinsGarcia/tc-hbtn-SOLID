@@ -20,7 +20,9 @@ public class Comments{
      * This class evaluates the overview of testcases which are cancelled from client
      */
 
-    //this method publishes results based on date
+    /*this method publishes results based on date
+    @since 16.0
+     */
     public List<Result> publishResults(Date date) {
         // some business logic here
     }
