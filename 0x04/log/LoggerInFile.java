@@ -15,7 +15,7 @@ public class LoggerInFile {
 
         try {
             fileHandler = new FileHandler("logs.txt");
-            Logger.addHandler(fileHandler);
+            logger.addHandler(fileHandler);
             simpleFormatter simpleFormatter = new SimpleFormatter();
             fileHandler.setFormatter(simpleFormatter);
             Logger.info("Log test");
